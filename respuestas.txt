@@ -1,4 +1,10 @@
 Exercise 5: Create a repo on GitHub that contains a markdown file that answers these questions:
+
 1. How do you see the files changed within each commit from git log?
+  - git log --raw
+
 2. How do you see the contents of what changed within each file from the git log?
+  - git log
+
 3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+  - El concepto de HEAD es muy simple: se refiere al commit en el que está tu repositorio posicionado en cada momento. Por regla general HEAD suele coincidir con el último commit de la rama en la que estés, ya que habitualmente estás trabajando en lo último
